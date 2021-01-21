@@ -14,7 +14,7 @@ function Banner() {
         {showSearch && <Search />}
 
         <Button
-          onCLick={() => setShowSearch(!showSearch)}
+          onClick={() => setShowSearch(!showSearch)}
           className="banner_searchButton"
           variant="outlined"
         >
